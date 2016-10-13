@@ -25,12 +25,17 @@
 			</div>
 		</div>
 		<div id="nav">
-			<nav> 
-				<a href="welcome">Accueil</a> 
-				<a href="userInscription">Inscription</a>
-				<a href="gift">Gift</a>
-				<a href="keyError">Error</a>  
-			</nav>
+			<div id="navLeft">
+				<nav> 
+					<a href="index">Accueil</a> 
+					<a href="catégories">Catégories</a>
+				</nav>
+			</div>
+			<div id="navRight">
+				<nav> 
+					<a href="connexion">Se connecter</a> 
+				</nav>
+			</div>
 		</div>
 		<div id="main"> 
 			<div id="mainContent">
