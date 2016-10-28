@@ -1,5 +1,8 @@
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\Application.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\User.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Product.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\IndexController.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\config\MainConfig.java
-C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Produit.java
-C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Utilisateur.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\SignInController.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\SignUpController.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\SignUpPostController.java
