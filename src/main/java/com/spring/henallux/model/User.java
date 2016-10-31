@@ -111,4 +111,8 @@ public class User {
 		this.faxNumber = faxNumber;
 	}
 	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
 }

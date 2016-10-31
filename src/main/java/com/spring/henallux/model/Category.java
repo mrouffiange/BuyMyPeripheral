@@ -1,13 +1,13 @@
 package com.spring.henallux.model;
 
 public class Category {
-	private int codeCategory;
+	private Integer codeCategory;
 	
-	public int getCodeCategory() {
+	public Integer getCodeCategory() {
 		return codeCategory;
 	}
 	
-	public void setCodeCategory(int codeCategory) {
+	public void setCodeCategory(Integer codeCategory) {
 		this.codeCategory = codeCategory;
 	}
 	
