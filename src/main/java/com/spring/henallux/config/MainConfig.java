@@ -5,6 +5,7 @@ import java.util.Locale;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean;
 import org.springframework.validation.DefaultMessageCodesResolver;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ViewResolver;
@@ -57,6 +58,11 @@ public class MainConfig extends WebMvcConfigurerAdapter{
 		resolver.setCookieName("myLocaleCookie");
 		resolver.setCookieMaxAge(-1);
 		return resolver;
+	}
+	
+	@Bean
+	public HibernateJpaSessionFactoryBean sessionFactory(){
+		return new HibernateJpaSessionFactoryBean();
 	}
 	
 	@Override

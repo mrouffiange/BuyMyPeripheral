@@ -1,5 +1,6 @@
 package com.spring.henallux.model;
 
+import java.util.Collection;
 import java.util.GregorianCalendar;
 
 public class User {
@@ -8,12 +9,14 @@ public class User {
 	private String firstname;
 	private String lastname;
 	private GregorianCalendar birthdate;
-	private String streetAddress, localityAddress;
+	private String streetAddress;
+	private String localityAddress;
 	private String email;
 	private String phoneNumber;
 	private String type;
 	private Boolean male;
 	private String faxNumber;
+	private Collection<Command> commands;
 	
 	public String getLogin() {
 		return login;
@@ -63,6 +66,10 @@ public class User {
 		return faxNumber;
 	}
 	
+	public Collection<Command> getCommands() {
+		return commands;
+	}
+	
 	public void setLogin(String login) {
 		this.login = login;
 	}
@@ -109,6 +116,10 @@ public class User {
 	
 	public void setFaxNumber(String faxNumber) {
 		this.faxNumber = faxNumber;
+	}
+	
+	public void setCommands(Collection<Command> commands) {
+		this.commands = commands;
 	}
 	
 	public User() {

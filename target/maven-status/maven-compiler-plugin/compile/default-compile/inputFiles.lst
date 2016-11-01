@@ -7,11 +7,12 @@ C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henal
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\repository\CommandRepository.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\CommandLine.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\dao\CommandDAO.java
-C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\util\ProviderControler.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\dao\UserDAO.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\util\ProviderConverter.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\dao\CommandLineDAO.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\entity\DiscountEntity.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\entity\UserEntity.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\BasketController.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\entity\CommandLineEntity.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\entity\ProductEntity.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\User.java
@@ -19,6 +20,7 @@ C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henal
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Command.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\entity\CommandEntity.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\repository\CategoryRepository.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\SocietyController.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Product.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\IndexController.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\config\MainConfig.java
@@ -27,5 +29,7 @@ C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henal
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\repository\CommandLineRepository.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Discount.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\dao\ProductDAO.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\AllProductsController.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\model\Category.java
+C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\controller\ProductController.java
 C:\Users\Martin\Desktop\workspace\BuyMyPeripheral\src\main\java\com\spring\henallux\dataAccess\dao\DiscountDAO.java

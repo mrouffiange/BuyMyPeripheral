@@ -1,19 +1,45 @@
 package com.spring.henallux.dataAccess.entity;
 
+import java.util.Collection;
 import java.util.GregorianCalendar;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="utilisateur")
 public class UserEntity {
+	@Id
+	@Column(name="numCommande")
 	private String login;
+	@Column(name="motDePasse")
 	private String password;
+	@Column(name="nom")
 	private String firstname;
+	@Column(name="prenom")
 	private String lastname;
+	@Column(name="dateNaissance")
 	private GregorianCalendar birthdate;
-	private String streetAddress, localityAddress;
+	@Column(name="rueAdr")
+	private String streetAddress;
+	@Column(name="localiteAdr")
+	private String localityAddress;
+	@Column(name="email")
 	private String email;
+	@Column(name="telephone")
 	private String phoneNumber;
+	@Column(name="typeUtilisateur")
 	private String type;
+	@Column(name="sexe")
 	private Boolean male;
+	@Column(name="fax")
 	private String faxNumber;
+	@OneToMany(mappedBy="user", fetch=FetchType.LAZY)
+	private Collection<CommandEntity> commands;
 	
 	public String getLogin() {
 		return login;
@@ -63,6 +89,10 @@ public class UserEntity {
 		return faxNumber;
 	}
 	
+	public Collection<CommandEntity> getCommands() {
+		return commands;
+	}
+	
 	public void setLogin(String login) {
 		this.login = login;
 	}
@@ -109,6 +139,10 @@ public class UserEntity {
 	
 	public void setFaxNumber(String faxNumber) {
 		this.faxNumber = faxNumber;
+	}
+	
+	public void setCommands(Collection<CommandEntity> commands) {
+		this.commands = commands;
 	}
 	
 	public UserEntity() {

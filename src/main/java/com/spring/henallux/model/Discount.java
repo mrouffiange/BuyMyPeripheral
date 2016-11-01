@@ -7,6 +7,7 @@ public class Discount {
 	private GregorianCalendar beginValidityDate;
 	private GregorianCalendar endValidityDate;
 	private Double discountInPourcent;
+	private Category category;
 	
 	public Integer getCode() {
 		return code;
@@ -24,6 +25,10 @@ public class Discount {
 		return discountInPourcent;
 	}
 	
+	public Category getCategory() {
+		return category;
+	}
+	
 	public void setCode(Integer code) {
 		this.code = code;
 	}
@@ -38,6 +43,10 @@ public class Discount {
 	
 	public void setDiscountInPourcent(Double discountInPourcent) {
 		this.discountInPourcent = discountInPourcent;
+	}
+	
+	public void setCategory(Category category) {
+		this.category = category;
 	}
 	
 	public Discount() {

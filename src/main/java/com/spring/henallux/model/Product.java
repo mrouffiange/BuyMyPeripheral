@@ -6,6 +6,7 @@ public class Product {
 	private Integer grade;
 	private String brand;
 	private String description;
+	private Category category;
 	
 	public Integer getNumReference() {
 		return numReference;
@@ -27,6 +28,10 @@ public class Product {
 		return description;
 	}
 	
+	public Category getCategory() {
+		return category;
+	}
+	
 	public void setNumReference(Integer numReference) {
 		this.numReference = numReference;
 	}
@@ -45,6 +50,10 @@ public class Product {
 	
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	
+	public void setCategory(Category category) {
+		this.category = category;
 	}
 	
 	public Product() {
